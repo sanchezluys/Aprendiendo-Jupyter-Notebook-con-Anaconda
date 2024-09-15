@@ -1,67 +1,102 @@
-# 🎓 Aprendiendo Jupyter Notebook con Anaconda
+# 🎓 Aprendiendo Jupyter Notebook con Anaconda 🚀
+¡Bienvenid@ a esta guía para instalar y utilizar **Jupyter Notebook** con **Anaconda** y **Python**! 📘🐍
 
-**Guía para instalar y usar Jupyter Notebook con Anaconda y Python** 🐍  
-_Tomado de:_ [Video tutorial](https://www.youtube.com/watch?v=AlgyR1txA3Y) 🎥
-
----
-
-## 🚀 Instalando Anaconda
-
-1. 🌐 Dirígete a [Anaconda.com](https://www.anaconda.com/) y descarga el instalador.
-2. ✉️ Ingresa tu correo para recibir el enlace de descarga.
-3. ✅ El instalador es compatible con Windows, Linux y macOS.
-
-⚠️ **Nota:** Se recomienda ejecutar el instalador como administrador para evitar problemas. La primera vez que abras Anaconda puede tardar unos minutos.
-
-Una vez instalado, verás la pantalla del **Anaconda Navigator**. Si se recomienda alguna actualización, asegúrate de aplicarla. ⚙️
-
-![alt jupy_0](/img/imagen.png)
+Tomado de: [Tutorial de YouTube](https://www.youtube.com/watch?v=AlgyR1txA3Y)
 
 ---
 
-## 🌱 Creando un Entorno Virtual (Environments)
+## 📥 Instalando Anaconda
 
-1. 🔧 Es recomendable crear un entorno específico para trabajar con Jupyter Notebook.
-2. En la pestaña de **Environments**, crea un nuevo entorno para aislar tus proyectos.
+1. Dirígete a [la página oficial de Anaconda](https://www.anaconda.com/) y descarga el instalador 💻.
+2. Introduce tu correo electrónico para recibir el enlace de descarga ✉️.
+3. Aplica para **Windows**, **Linux** y **MacOS** 🖥️🐧🍏.
 
-![alt jupy_13](/img/imagen-13.png)
+> **Tip**: Se recomienda ejecutar Anaconda como administrador para evitar problemas durante la instalación ⚠️.
 
-3. 🚀 Activa el entorno y desde la pestaña de **Home**, lanza Jupyter Notebook.
+A continuación, verás algunas capturas del proceso de instalación:
+
+![Instalación paso 1](/img/imagen.png)
+![Instalación paso 2](/img/imagen-1.png)
+![Instalación paso 3](/img/imagen-2.png)
+![Instalación paso 4](/img/imagen-3.png)
+![Instalación paso 5](/img/imagen-4.png)
+![Instalación paso 6](/img/imagen-5.png)
+![Instalación paso 7](/img/imagen-6.png)
+![Instalación paso 8](imagen-7.png)
+![Instalación paso 9](/img/imagen-8.png)
+![Instalación paso 10](/img/imagen-9.png)
+![Instalación paso 11](/img/imagen-10.png)
 
 ---
 
-## 🛠️ Resolviendo Problemas Comunes
+## 🛠️ Configurando el Entorno Virtual
 
-1. 💥 Si encuentras algún error al lanzar Jupyter, intenta reiniciarlo como administrador.
-2. Si Jupyter no abre desde el **Launch** en Anaconda, prueba ejecutarlo desde la consola:
+1. Una vez instalado Anaconda, abre el **Anaconda Navigator** 🚀.
+   > La primera vez puede tardar unos minutos en iniciar ⏳.
+   
+2. Si aparece alguna actualización recomendada, ¡ejecútala! 🔄
+
+![Anaconda Navigator](/img/imagen-11.png)
+
+3. Es recomendable crear un entorno virtual exclusivo para **Jupyter** 📂.
+
+   A continuación, el proceso paso a paso:
+
+![Crear entorno 1](/img/imagen-12.png)
+![Crear entorno 2](/img/imagen-13.png)
+![Crear entorno 3](/img/imagen-14.png)
+![Crear entorno 4](/img/imagen-15.png)
+
+4. Activa **Jupyter** en el entorno creado desde la pestaña *Home* de **Anaconda Navigator** 🏠.
+
+![Activar Jupyter](/img/imagen-16.png)
+
+---
+
+## ⚙️ Resolviendo Errores Comunes
+
+- Si encuentras algún error, como que **Jupyter** no se ejecuta correctamente, prueba a reiniciar y ejecutar Anaconda como administrador 🔄🔧.
+  
+- Si sigue sin funcionar, puedes iniciar **Jupyter Notebook** desde la consola con el siguiente comando:
 
     ```bash
     jupyter notebook
     ```
 
-3. Una vez iniciado el servidor, abre el enlace que contiene el **token** indicado en la consola para acceder a Jupyter desde tu navegador. 🌐
+- Al iniciar el servidor web de **Jupyter**, será necesario acceder usando el token que aparece en la consola 🔑.
+
+![Error Jupyter](/img/imagen-18.png)
+![Consola Jupyter](/img/imagen-19.png)
 
 ---
 
-## 📓 Creando y Usando un Nuevo Notebook
+## 📝 Creando un Nuevo Notebook
 
-1. Crea un nuevo notebook y comienza a programar en Python. 👩‍💻👨‍💻
-2. Si al intentar importar alguna librería te aparece un error, puedes instalarla desde la consola con:
+1. Para crear un nuevo notebook, selecciona la opción en **Jupyter** ✨.
+
+![Nuevo Notebook](/img/imagen-20.png)
+
+2. Si necesitas instalar alguna librería, puedes hacerlo desde la consola:
 
     ```bash
     pip install pandas
     ```
 
-3. También puedes instalar librerías directamente en el notebook utilizando:
+3. También puedes instalar librerías directamente en el notebook usando:
 
     ```python
     !pip install pandas
     ```
 
-4. 💾 Cuando termines tu trabajo, puedes descargar tu notebook en formatos como Python, HTML, entre otros.
+4. Cuando finalices tu trabajo, puedes descargar el notebook en formato **Python**, **HTML**, u otros formatos 📝⬇️.
 
-![alt jupy_22](/img/imagen-22.png)
+![Descargar Notebook](/img/imagen-22.png)
 
 ---
 
-🎉 ¡Y eso es todo! Ahora ya sabes cómo instalar y usar Jupyter Notebook con Anaconda. ¡Feliz aprendizaje! 📚✨
+## 🎯 ¡Listo para Empezar!
+Con esta guía, estás listo para explorar el mundo de **Jupyter Notebook** con **Anaconda**. ¡Empieza a escribir código y experimenta con el poder de **Python**! 🐍💻
+
+---
+
+🤝 **Contribuciones:** Si tienes sugerencias o mejoras, ¡no dudes en hacer un pull request! 😊
